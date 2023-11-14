@@ -91,7 +91,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©{year} All rights reserved
+          Copyright ©{year} All rights reserved. Created by <a href="https://github.com/behzodk">Behzod Musurmonqulov</a> and Ismatulloh Baxtiyorov.
         </p>
       </div>
     </>
