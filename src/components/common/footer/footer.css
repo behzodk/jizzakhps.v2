@@ -8,7 +8,7 @@
   padding-right: 50px;
 }
 .newletter h1 {
-  color: #1a3975;
+  color: white;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
@@ -77,6 +77,13 @@ footer .link li::before {
   color: #1a3975;
   margin-right: 5px;
 }
+.link a:hover{
+  color:#1a3975;
+  font-size: 18px;
+}
+.link a{
+  transition: 0.3s;
+}
 footer .items {
   margin-bottom: 30px;
 }
@@ -120,6 +127,11 @@ footer .last i {
   color: #1a3975;
 }
 .behzod{
-  color: rgb(14, 253, 30);
+  color: #3075ff;
   text-decoration: underline;
+  transition: 0.3s;
+}
+.behzod:hover{
+  color: #ffffff;
+  text-decoration: none;
 }

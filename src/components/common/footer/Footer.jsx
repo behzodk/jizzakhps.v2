@@ -1,6 +1,7 @@
 import React from "react"
 import { blog } from "../../../dummydata"
 import "./footer.css"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   const d = new Date();
@@ -33,20 +34,20 @@ const Footer = () => {
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/alumni">Alumni</Link></li>
+              <li><Link to='/courses'>Subjects</Link></li>
+              <li><Link to="/journal">Blog</Link></li>
+              
             </ul>
           </div>
           <div className='box link'>
             <h3>Quick Links</h3>
             <ul>
-              <li>Contact Us</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
+              <li><Link to="">Terms & Conditions</Link></li>
+              <li><Link to="/team">Staff</Link></li>
             </ul>
           </div>
           <div className='box'>
@@ -91,7 +92,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©{year} All rights reserved. Created by <a className="behzod" href="https://t.me/behzodmusurmonqulov">Behzod Musurmonqulov</a> and <a className="behzod" href="https://t.me/Baxt1y0rov">Ismatulloh Baxtiyorov</a>.
+          Copyright ©{year} All rights reserved. Created by <a className="behzod" href="https://t.me/behzodmusurmonqulov">Behzod Musurmonqulov</a> & <a className="behzod" href="https://t.me/Baxt1y0rov"> Ismatulloh Bakhtiyorov</a>.
         </p>
       </div>
     </>
