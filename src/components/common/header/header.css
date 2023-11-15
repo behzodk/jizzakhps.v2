@@ -49,6 +49,7 @@ header li {
 }
 header ul {
   padding: 30px 20px;
+  z-index: 11;
 }
 header ul li a {
   color: #fff;

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Hero = () => {
   return (
     <>
-      <section className='hero' style={{zIndex:10}}>
+      <section className='hero'>
         <div className='container'>
           <div className='row'>
             <div className="colorr">
