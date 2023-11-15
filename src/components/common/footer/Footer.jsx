@@ -22,7 +22,7 @@ const Footer = () => {
       </section>
       <footer>
         <div className='container padding'>
-          <div className='box logo'>
+          <div className='logo' style={{color:"#1a3975"}}>
             <h1>Jizzakh PS</h1>
             <span>School of dreams of every student</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
