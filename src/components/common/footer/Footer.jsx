@@ -23,7 +23,7 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='logo' style={{color:"#1a3975"}}>
-            <h1>Jizzakh PS</h1>
+            <h1 style={{color:"#1a3975"}}><Link style={{color:"#1a3975"}} to="/">Jizzakh PS</Link></h1>
             <span>School of dreams of every student</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 
