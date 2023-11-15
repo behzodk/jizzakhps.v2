@@ -428,12 +428,5 @@ export const homeAbout = [
       post: "Graduate of 2023",
       desc: "He successfully became a student of the Arizona State University, USA. Winner of 'El Yurt Umidi Foundation' scholarship.",
       cover: "./images/testo/asror.jpg",
-    },
-    {
-      id: 5,
-      name: "Ismatulloh Bakhtiyorov",
-      post: "Student of Jizzakh PS",
-      desc: "🥈Silver Medalist. He won a silver medal at the IJSA competition. Kazakhstan, Shymkent.",
-      cover: "./images/testo/ismatulloh.jpg",
-    },
+    }
   ]
