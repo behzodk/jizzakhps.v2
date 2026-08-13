@@ -26,29 +26,49 @@
   width: 100% !important;
 }
 
-/* High contrast Breadcrumb Styling */
+/* High contrast Compact Breadcrumb Styling */
 .breadcrumbs {
   background: linear-gradient(135deg, #0d2460 0%, #1b3a8c 60%, #13748f 100%) !important;
   color: #ffffff !important;
-  padding: 44px 0 !important;
-  margin-bottom: 40px !important;
-  box-shadow: 0 10px 30px rgba(13, 36, 96, 0.15);
+  padding: 14px 0 !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 4px 16px rgba(13, 36, 96, 0.12);
   position: relative;
+}
+
+.breadcrumbs-wrapper {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+}
+
+.breadcrumbs-wrapper-list {
+  margin-bottom: 2px !important;
+  gap: 6px !important;
+}
+
+.breadcrumbs-wrapper-list i.i-home {
+  font-size: 16px !important;
 }
 
 .breadcrumbs-wrapper-title {
   color: #ffffff !important;
-  font-size: 32px !important;
+  font-size: 20px !important;
   font-weight: 800 !important;
-  margin-top: 10px !important;
-  letter-spacing: -0.5px !important;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.3px !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .breadcrumbs-wrapper-list-link {
   color: rgba(255, 255, 255, 0.9) !important;
-  font-size: 14px !important;
+  font-size: 13px !important;
   font-weight: 500 !important;
+  line-height: 1.2 !important;
 }
 
 .breadcrumbs-wrapper-list i {

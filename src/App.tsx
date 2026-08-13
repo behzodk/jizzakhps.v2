@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './i18n';
 import './index.css';
@@ -19,6 +19,12 @@ import AcademicCalendarPage from './pages/AcademicCalendarPage';
 
 const AppInner: React.FC = () => {
   const { i18n, t } = useTranslation();
+  const location = useLocation();
+
+  // Scroll to top of page on every route change
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [location.pathname]);
 
   useEffect(() => {
     const handleScroll = () => {
