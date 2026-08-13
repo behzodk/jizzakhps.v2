@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon846c.eot?9cala6');
+  src:  url('fonts/icomoon846c.eot?9cala6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon846c.ttf?9cala6') format('truetype'),
+    url('fonts/icomoon846c.woff?9cala6') format('woff'),
+    url('fonts/icomoon846c.svg?9cala6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-arrow-left:before {
+  content: "\e923";
+}
+.i-arrow-low:before {
+  content: "\e924";
+}
+.i-arrow-right:before {
+  content: "\e925";
+}
+.i-arrow-top:before {
+  content: "\e926";
+}
+.i-award:before {
+  content: "\e927";
+}
+.i-book:before {
+  content: "\e928";
+}
+.i-book-edit:before {
+  content: "\e929";
+}
+.i-cake:before {
+  content: "\e92a";
+}
+.i-calendar:before {
+  content: "\e92b";
+}
+.i-calendar-fiber:before {
+  content: "\e92c";
+}
+.i-clock:before {
+  content: "\e92d";
+}
+.i-code:before {
+  content: "\e92e";
+}
+.i-confounded:before {
+  content: "\e92f";
+}
+.i-cup:before {
+  content: "\e930";
+}
+.i-directbox:before {
+  content: "\e931";
+}
+.i-document-text:before {
+  content: "\e932";
+}
+.i-dropdawun:before {
+  content: "\e933";
+}
+.i-expressionless:before {
+  content: "\e934";
+}
+.i-eye:before {
+  content: "\e900";
+}
+.i-facebook:before {
+  content: "\e901";
+}
+.i-funny:before {
+  content: "\e902";
+}
+.i-gallery:before {
+  content: "\e903";
+}
+.i-global:before {
+  content: "\e904";
+}
+.i-global-edit:before {
+  content: "\e905";
+}
+.i-gps:before {
+  content: "\e906";
+}
+.i-home:before {
+  content: "\e907";
+}
+.i-instagram:before {
+  content: "\e908";
+}
+.i-last:before {
+  content: "\e909";
+}
+.i-like:before {
+  content: "\e90a";
+}
+.i-location:before {
+  content: "\e90b";
+}
+.i-mail:before {
+  content: "\e90c";
+}
+.i-menu:before {
+  content: "\e90d";
+}
+.i-moon:before {
+  content: "\e90e";
+}
+.i-music:before {
+  content: "\e90f";
+}
+.i-next:before {
+  content: "\e910";
+}
+.i-phone:before {
+  content: "\e911";
+}
+.i-plus:before {
+  content: "\e912";
+}
+.i-prev:before {
+  content: "\e913";
+}
+.i-profile-tick:before {
+  content: "\e914";
+}
+.i-right:before {
+  content: "\e915";
+}
+.i-sad:before {
+  content: "\e916";
+}
+.i-search:before {
+  content: "\e917";
+}
+.i-search-status:before {
+  content: "\e918";
+}
+.i-send:before {
+  content: "\e919";
+}
+.i-share:before {
+  content: "\e91a";
+}
+.i-smile:before {
+  content: "\e91b";
+}
+.i-star:before {
+  content: "\e91c";
+}
+.i-sun:before {
+  content: "\e91d";
+}
+.i-sunset:before {
+  content: "\e91e";
+}
+.i-support:before {
+  content: "\e91f";
+}
+.i-teacher:before {
+  content: "\e920";
+}
+.i-telegram:before {
+  content: "\e921";
+}
+.i-youtube:before {
+  content: "\e922";
+}
