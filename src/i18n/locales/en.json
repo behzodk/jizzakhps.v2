@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Jizzax Presidential School",
-    "description": "Presidential School in Jizzax",
-    "keywords": "Presidential School, President school, Jizzax"
+    "title": "Jizzakh Presidential School",
+    "description": "Presidential School in Jizzakh",
+    "keywords": "Presidential School, President school, Jizzakh"
   },
   "nav": {
     "about": "About us",
@@ -25,7 +25,7 @@
     "en": "English"
   },
   "offcanvas": {
-    "title": "Presidential School in Tashkent"
+    "title": "Presidential School in Jizzakh"
   },
   "hero": {
     "title": "Preparing the leaders of tomorrow, today",
@@ -40,7 +40,7 @@
     "stat3_text": "Highly qualified local and international teachers"
   },
   "president": {
-    "title": "Presidential School in Jizzax",
+    "title": "Presidential School in Jizzakh",
     "quote": "\"As we aim to take our country to a new stage, we first of all associate this with the development of education and upbringing. Presidential schools are centers of intellectual elite that will build the foundation of a new Uzbekistan and lead our country to a bright future.\"",
     "name": "Shavkat Mirziyoyev",
     "position": "President of the Republic of Uzbekistan"
@@ -48,18 +48,18 @@
   "about": {
     "label": "About us",
     "title": "General information about the school",
-    "text": "The Presidential School in Jizzax was established on the initiative of the President of the Republic of Uzbekistan Shavkat Mirziyoyev. This institution is a model school opened in our country to identify gifted children and provide them with education in accordance with world standards based on advanced technologies. The school operates in a boarding school system. In it, students live and study on the territory itself, provided with a full dormitory, free food and special clothing, 5 days a week.",
+    "text": "The Presidential School in Jizzakh was established on the initiative of the President of the Republic of Uzbekistan Shavkat Mirziyoyev. This institution is a model school opened in our country to identify gifted children and provide them with education in accordance with world standards based on advanced technologies. The school operates in a boarding school system. In it, students live and study on the territory itself, provided with a full dormitory, free food and special clothing, 5 days a week.",
     "readMore": "Details",
-    "banner": "PRESIDENTIAL SCHOOL IN JIZZAX"
+    "banner": "PRESIDENTIAL SCHOOL IN JIZZAKH"
   },
   "news": {
     "label": "News",
     "title": "School news",
     "viewAll": "View all",
     "view": "View",
-    "card1_title": "A University Exhibition was organized at the Presidential School in Jizzax with the participation of universities from Europe, England, and several other countries",
+    "card1_title": "A University Exhibition was organized at the Presidential School in Jizzakh with the participation of universities from Europe, England, and several other countries",
     "card1_text": "During this exhibition, students had the opportunity to communicate directly with university representatives and received answers to their questions about grants offered by universities, admission processes, and other issues of interest.",
-    "card2_title": "A spiritual and educational trip to the Alley of Writers was organized for 6th and 8th grade students of the Presidential School in Jizzax",
+    "card2_title": "A spiritual and educational trip to the Alley of Writers was organized for 6th and 8th grade students of the Presidential School in Jizzakh",
     "card2_text": "During the trip, the students got acquainted with the life and work of the great representatives of Uzbek literature, paid tribute to the memory of the writers."
   },
   "education": {
@@ -105,8 +105,8 @@
     "calendar": "Academic calendar",
     "media": "Media",
     "contacts": "Contacts",
-    "address": "Uzbekistan, Jizzax region, Jizzax city, 130100, Sayiljoyi MFY, Istiqlol street, 13",
-    "copyright": "© 2026 Presidential School in Jizzax",
+    "address": "Uzbekistan, Jizzakh region, Jizzakh city, 130100, Sayiljoyi MFY, Istiqlol street, 13",
+    "copyright": "© 2026 Presidential School in Jizzakh",
     "developer": "Developed by:"
   },
   "carousel": {
@@ -115,7 +115,7 @@
   "about_page": {
     "title": "About school",
     "info_title": "General information about the school",
-    "info_text": "The Presidential School in Jizzax was established on the initiative of the President of the Republic of Uzbekistan Shavkat Mirziyoyev. This institution is a model school opened in our country to identify gifted children and provide them with education in accordance with world standards based on advanced technologies. The school operates in a boarding school system.",
+    "info_text": "The Presidential School in Jizzakh was established on the initiative of the President of the Republic of Uzbekistan Shavkat Mirziyoyev. This institution is a model school opened in our country to identify gifted children and provide them with education in accordance with world standards based on advanced technologies. The school operates in a boarding school system.",
     "vision_title": "Vision",
     "vision_text": "The vision of the Presidential Schools is to prepare the next generation of leaders to actively and positively contribute to the development of Uzbekistan by providing educational opportunities that encourage the nation's gifted and talented youth to realize their potential as creative, innovative participants in a dynamic global society.",
     "mission_title": "Mission",

@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             <div className="footer-main-right-line"></div>
             <div className="footer-main-right-link">
               <a target="_blank" rel="noreferrer" href="tel:+998722215919"><i className="i-phone"></i><span>(+998) 72-221-59-19</span></a>
-              <a target="_blank" rel="noreferrer" href="mailto:prmgzd@piima.uz"><i className="i-mail"></i><span>prmgzd@piima.uz</span></a>
+              <a target="_blank" rel="noreferrer" href="mailto:info@jizzakhps.uz"><i className="i-mail"></i><span>info@jizzakhps.uz</span></a>
             </div>
           </div>
           <Link className="footer-logo" to="/"><img src="/storage/contents/a1741a2e-3230-4480-bdcd-d85f699fc7e9312.svg" alt="Logo" /></Link>

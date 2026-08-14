@@ -42,7 +42,7 @@ const Header: React.FC = () => {
           <div className="container">
             <div className="header-top-right">
               <a href="tel:+998722215919" target="_blank" rel="noreferrer"><i className="i-phone"></i><span>(+998) 72-221-59-19</span></a>
-              <a href="mailto:prmgzd@piima.uz" target="_blank" rel="noreferrer"><i className="i-mail"></i><span>prmgzd@piima.uz</span></a>
+              <a href="mailto:info@jizzakhps.uz" target="_blank" rel="noreferrer"><i className="i-mail"></i><span>info@jizzakhps.uz</span></a>
             </div>
             <div className="header-top-left">
               <div className="header-top-left-line">
@@ -156,7 +156,7 @@ const Header: React.FC = () => {
             </div>
             <div className="offcanvas-body-link">
               <a href="tel:+998722215919"><i className="i-phone"></i><span>(+998) 72-221-59-19</span></a>
-              <a href="mailto:prmgzd@piima.uz"><i className="i-mail"></i><span>prmgzd@piima.uz</span></a>
+              <a href="mailto:info@jizzakhps.uz"><i className="i-mail"></i><span>info@jizzakhps.uz</span></a>
             </div>
           </div>
         </div>

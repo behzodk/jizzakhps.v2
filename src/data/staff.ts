@@ -19,20 +19,11 @@ export const staffList: StaffMember[] = [
     role_en: "Executive Director",
     category: "leadership",
     img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2FSherzod_Jumayev.png?alt=media&token=5abf92ce-59ed-4a7c-b3c8-61d84e16addc",
-    email: "prmgzd@piima.uz",
+    email: "info@jizzakhps.uz",
     phone: "(+998) 72-221-59-19"
   },
 
-  {
-    id: 102,
-    name: "Nouman Khan",
-    role_uz: "Akademik direktor",
-    role_en: "Academic Director",
-    category: "leadership",
-    img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2F22.jpg?alt=media&token=9ef37b90-9d80-4a57-8abf-fea5eb3bd9ab",
-    email: "prmgzd@piima.uz",
-    phone: "(+998) 72-221-59-19"
-  },
+
   {
     id: 103,
     name: "Xaydarova Dilorom",
@@ -40,7 +31,7 @@ export const staffList: StaffMember[] = [
     role_en: "Deputy Director for Spiritual and Educational Affairs",
     category: "leadership",
     img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2F26.jpg?alt=media&token=5dd210c1-04c7-4b41-a329-2313a8286f83",
-    email: "prmgzd@piima.uz",
+    email: "info@jizzakhps.uz",
     phone: "(+998) 72-221-59-19"
   },
 
@@ -126,15 +117,7 @@ export const staffList: StaffMember[] = [
     subject: "Biology",
     img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2F12.jpg?alt=media&token=7caf59a1-c81a-4bb8-9685-4749dc7e49d2"
   },
-  {
-    id: 13,
-    name: "Jo'rayev Hasan",
-    role_uz: "Tabiiy fanlar fani o'qituvchisi",
-    role_en: "Science Teacher",
-    category: "teacher",
-    subject: "Science",
-    img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2F13.jpg?alt=media&token=af4ca126-6af4-4173-b719-c479bfbffa6b"
-  },
+
   {
     id: 14,
     name: "Xamroyeva Dilnoza",
@@ -288,25 +271,10 @@ export const staffList: StaffMember[] = [
     subject: "English",
     img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2F37.jpg?alt=media&token=9a647b64-451a-4c1a-a327-5751d108a161"
   },
-  {
-    id: 38,
-    name: "Riezl Magdayo-Torralba",
-    role_uz: "Tabiiy fanlar fani o'qituvchisi",
-    role_en: "Science Teacher",
-    category: "teacher",
-    subject: "Science",
-    img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2FUrinboyeva_Shahnoza_(3).jpg?alt=media&token=b8b86e24-4b54-47a0-bd55-115678006996"
-  },
+
 
   // SCHOOL STAFF (Maktab xodimlari)
-  {
-    id: 19,
-    name: "G'oyipov Orif",
-    role_uz: "Bino boshqaruvchisi",
-    role_en: "Facility Manager",
-    category: "staff",
-    img: "https://firebasestorage.googleapis.com/v0/b/inreportsystem-54cab.appspot.com/o/staff%2F19.jpg?alt=media&token=caa1d1c1-c04b-4039-a4e2-fae4e5cea99b"
-  },
+
   {
     id: 28,
     name: "Tilabov O'tkir",

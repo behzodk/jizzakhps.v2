@@ -25,7 +25,7 @@ const ContactsPage: React.FC = () => {
                 <i className="i-mail"></i>
                 <div className="contacts-main-card-link">
                   <p>{t('contacts_page.email_label')}</p>
-                  <h5>prmgzd@piima.uz</h5>
+                  <h5>info@jizzakhps.uz</h5>
                 </div>
               </div>
               <a href="https://yandex.com/maps/?text=Istiqlol+ko'chasi+13,+Jizzax" target="_blank" rel="noreferrer" className="contacts-main-card contacts-main-image3">
