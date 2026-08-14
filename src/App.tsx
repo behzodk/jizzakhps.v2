@@ -16,6 +16,9 @@ import TeachersPage from './pages/TeachersPage';
 import PupilsPage from './pages/PupilsPage';
 import ApplicationPage from './pages/ApplicationPage';
 import AcademicCalendarPage from './pages/AcademicCalendarPage';
+import IeltsResultsPage from './pages/IeltsResultsPage';
+import SatResultsPage from './pages/SatResultsPage';
+import StatisticsPage from './pages/StatisticsPage';
 
 const AppInner: React.FC = () => {
   const { i18n, t } = useTranslation();
@@ -59,6 +62,14 @@ const AppInner: React.FC = () => {
       <Route path="/pupils" element={<PupilsPage />} />
       <Route path="/application" element={<ApplicationPage />} />
       <Route path="/academic-calendar" element={<AcademicCalendarPage />} />
+      
+      <Route path="/results/ielts" element={<IeltsResultsPage />} />
+      <Route path="/results/sat" element={<SatResultsPage />} />
+      <Route path="/results" element={<IeltsResultsPage />} />
+      <Route path="/ielts" element={<IeltsResultsPage />} />
+      <Route path="/sat" element={<SatResultsPage />} />
+      <Route path="/statistics" element={<StatisticsPage />} />
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 };

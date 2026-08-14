@@ -12,6 +12,7 @@ const Header: React.FC = () => {
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [prideOpen, setPrideOpen] = useState(false);
+  const [resultsOpen, setResultsOpen] = useState(false);
   const [mediaOpen, setMediaOpen] = useState(false);
 
   const currentLang = i18n.language.startsWith('en') ? 'en' : 'uz';
@@ -93,12 +94,22 @@ const Header: React.FC = () => {
               </div>
             </div>
             <div className="header-text-left">
-              <div className="header-text-item"><Link to="/academic-calendar" className="header-text-link">{t('nav.calendar')}</Link></div>
+              <div className="header-text-item has-dropdown">
+                <span className="header-text-link">{t('nav.results')} <i className="i-dropdawun"></i></span>
+                <div className="header-text-dropdown">
+                  <div className="header-text-dropdown-item"><Link to="/results/ielts" className="header-text-dropdown-link">{t('nav.ielts')}</Link></div>
+                  <div className="header-text-dropdown-item"><Link to="/results/sat" className="header-text-dropdown-link">{t('nav.sat')}</Link></div>
+                  <div className="header-text-dropdown-item"><Link to="/results/ielts?type=alevel" className="header-text-dropdown-link">{t('nav.alevel')}</Link></div>
+                  <div className="header-text-dropdown-item"><Link to="/results/ielts?type=aslevel" className="header-text-dropdown-link">{t('nav.aslevel')}</Link></div>
+                </div>
+              </div>
+              <div className="header-text-item"><Link to="/statistics" className="header-text-link">{t('nav.statistics')}</Link></div>
               <div className="header-text-item has-dropdown">
                 <span className="header-text-link">{t('nav.media')} <i className="i-dropdawun"></i></span>
                 <div className="header-text-dropdown">
                   <div className="header-text-dropdown-item"><Link to="/gallery" className="header-text-dropdown-link">{t('nav.gallery')}</Link></div>
                   <div className="header-text-dropdown-item"><Link to="/news" className="header-text-dropdown-link">{t('nav.news')}</Link></div>
+                  <div className="header-text-dropdown-item"><Link to="/academic-calendar" className="header-text-dropdown-link">{t('nav.calendar')}</Link></div>
                 </div>
               </div>
               <div className="header-text-item"><Link to="/contacts" className="header-text-link">{t('nav.contacts')}</Link></div>
@@ -137,6 +148,16 @@ const Header: React.FC = () => {
                 <li className="submenu-item"><Link to="/pupils" className="submenu-link" onClick={close}>{t('nav.students')}</Link></li>
               </ul>}
             </li>
+            <li className="menu-item menu-item--dropdown">
+              <span className="menu-link" onClick={() => setResultsOpen(!resultsOpen)} style={{ cursor: 'pointer' }}>{t('nav.results')} <i className="i-dropdown"></i></span>
+              {resultsOpen && <ul className="submenu">
+                <li className="submenu-item"><Link to="/results/ielts" className="submenu-link" onClick={close}>{t('nav.ielts')}</Link></li>
+                <li className="submenu-item"><Link to="/results/sat" className="submenu-link" onClick={close}>{t('nav.sat')}</Link></li>
+                <li className="submenu-item"><Link to="/results/ielts?type=alevel" className="submenu-link" onClick={close}>{t('nav.alevel')}</Link></li>
+                <li className="submenu-item"><Link to="/results/ielts?type=aslevel" className="submenu-link" onClick={close}>{t('nav.aslevel')}</Link></li>
+              </ul>}
+            </li>
+            <li className="menu-item"><Link to="/statistics" className="menu-link" onClick={close}>{t('nav.statistics')}</Link></li>
             <li className="menu-item"><Link to="/academic-calendar" className="menu-link" onClick={close}>{t('nav.calendar')}</Link></li>
             <li className="menu-item menu-item--dropdown">
               <span className="menu-link" onClick={() => setMediaOpen(!mediaOpen)} style={{ cursor: 'pointer' }}>{t('nav.media')} <i className="i-dropdown"></i></span>
