@@ -11,9 +11,7 @@ const Header: React.FC = () => {
   const [langOpen, setLangOpen] = useState(false);
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
-  const [prideOpen, setPrideOpen] = useState(false);
   const [resultsOpen, setResultsOpen] = useState(false);
-  const [mediaOpen, setMediaOpen] = useState(false);
 
   const currentLang = i18n.language.startsWith('en') ? 'en' : 'uz';
   const changeLanguage = (lang: string) => { i18n.changeLanguage(lang); setLangOpen(false); };
@@ -85,15 +83,11 @@ const Header: React.FC = () => {
               </div>
               <div className="header-text-item"><Link to="/education" className="header-text-link">{t('nav.education')}</Link></div>
               <div className="header-text-item"><a href="https://ariza.piima.uz/application/cabinet" target="_blank" rel="noreferrer" className="header-text-link">{t('nav.admission')}</a></div>
-              <div className="header-text-item has-dropdown">
-                <span className="header-text-link">{t('nav.pride')} <i className="i-dropdawun"></i></span>
-                <div className="header-text-dropdown">
-                  <div className="header-text-dropdown-item"><Link to="/teachers" className="header-text-dropdown-link">{t('nav.teachers')}</Link></div>
-                  <div className="header-text-dropdown-item"><Link to="/pupils" className="header-text-dropdown-link">{t('nav.students')}</Link></div>
-                </div>
-              </div>
+              <div className="header-text-item"><Link to="/teachers" className="header-text-link">{t('nav.teachers')}</Link></div>
+              <div className="header-text-item"><Link to="/pupils" className="header-text-link">{t('nav.students')}</Link></div>
             </div>
             <div className="header-text-left">
+              <div className="header-text-item"><Link to="/news" className="header-text-link">{t('nav.news')}</Link></div>
               <div className="header-text-item has-dropdown">
                 <span className="header-text-link">{t('nav.results')} <i className="i-dropdawun"></i></span>
                 <div className="header-text-dropdown">
@@ -104,14 +98,7 @@ const Header: React.FC = () => {
                 </div>
               </div>
               <div className="header-text-item"><Link to="/statistics" className="header-text-link">{t('nav.statistics')}</Link></div>
-              <div className="header-text-item has-dropdown">
-                <span className="header-text-link">{t('nav.media')} <i className="i-dropdawun"></i></span>
-                <div className="header-text-dropdown">
-                  <div className="header-text-dropdown-item"><Link to="/gallery" className="header-text-dropdown-link">{t('nav.gallery')}</Link></div>
-                  <div className="header-text-dropdown-item"><Link to="/news" className="header-text-dropdown-link">{t('nav.news')}</Link></div>
-                  <div className="header-text-dropdown-item"><Link to="/academic-calendar" className="header-text-dropdown-link">{t('nav.calendar')}</Link></div>
-                </div>
-              </div>
+              <div className="header-text-item"><Link to="/gallery" className="header-text-link">{t('nav.gallery')}</Link></div>
               <div className="header-text-item"><Link to="/contacts" className="header-text-link">{t('nav.contacts')}</Link></div>
             </div>
           </div>
@@ -141,13 +128,9 @@ const Header: React.FC = () => {
             </li>
             <li className="menu-item"><Link to="/education" className="menu-link" onClick={close}>{t('nav.education')}</Link></li>
             <li className="menu-item"><a href="https://ariza.piima.uz/application/cabinet" target="_blank" rel="noreferrer" className="menu-link">{t('nav.admission')}</a></li>
-            <li className="menu-item menu-item--dropdown">
-              <span className="menu-link" onClick={() => setPrideOpen(!prideOpen)} style={{ cursor: 'pointer' }}>{t('nav.pride')} <i className="i-dropdown"></i></span>
-              {prideOpen && <ul className="submenu">
-                <li className="submenu-item"><Link to="/teachers" className="submenu-link" onClick={close}>{t('nav.teachers')}</Link></li>
-                <li className="submenu-item"><Link to="/pupils" className="submenu-link" onClick={close}>{t('nav.students')}</Link></li>
-              </ul>}
-            </li>
+            <li className="menu-item"><Link to="/teachers" className="menu-link" onClick={close}>{t('nav.teachers')}</Link></li>
+            <li className="menu-item"><Link to="/pupils" className="menu-link" onClick={close}>{t('nav.students')}</Link></li>
+            <li className="menu-item"><Link to="/news" className="menu-link" onClick={close}>{t('nav.news')}</Link></li>
             <li className="menu-item menu-item--dropdown">
               <span className="menu-link" onClick={() => setResultsOpen(!resultsOpen)} style={{ cursor: 'pointer' }}>{t('nav.results')} <i className="i-dropdown"></i></span>
               {resultsOpen && <ul className="submenu">
@@ -158,14 +141,8 @@ const Header: React.FC = () => {
               </ul>}
             </li>
             <li className="menu-item"><Link to="/statistics" className="menu-link" onClick={close}>{t('nav.statistics')}</Link></li>
+            <li className="menu-item"><Link to="/gallery" className="menu-link" onClick={close}>{t('nav.gallery')}</Link></li>
             <li className="menu-item"><Link to="/academic-calendar" className="menu-link" onClick={close}>{t('nav.calendar')}</Link></li>
-            <li className="menu-item menu-item--dropdown">
-              <span className="menu-link" onClick={() => setMediaOpen(!mediaOpen)} style={{ cursor: 'pointer' }}>{t('nav.media')} <i className="i-dropdown"></i></span>
-              {mediaOpen && <ul className="submenu">
-                <li className="submenu-item"><Link to="/gallery" className="submenu-link" onClick={close}>{t('nav.gallery')}</Link></li>
-                <li className="submenu-item"><Link to="/news" className="submenu-link" onClick={close}>{t('nav.news')}</Link></li>
-              </ul>}
-            </li>
             <li className="menu-item"><Link to="/contacts" className="menu-link" onClick={close}>{t('nav.contacts')}</Link></li>
           </ul>
           <div className="offcanvas-footer">
