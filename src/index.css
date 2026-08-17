@@ -1757,3 +1757,363 @@
     font-size: 9.5px;
   }
 }
+
+/* ==========================================================================
+   Admission Rules Page Styles (Qabul Nizomi)
+   ========================================================================== */
+.admission-page-main {
+  background-color: #f8fafc;
+  padding: 40px 0 80px;
+  min-height: 80vh;
+}
+
+.admission-section {
+  margin-bottom: 48px;
+}
+
+.admission-header-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 36px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  position: relative;
+}
+
+.admission-badge {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0284c7;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.admission-step-badge {
+  display: inline-block;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.admission-section-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 16px;
+  letter-spacing: -0.4px;
+}
+
+.admission-section-lead {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #334155;
+  margin: 0;
+}
+
+/* Requirements Grid */
+.admission-requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.admission-req-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 32px 24px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admission-req-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+.admission-step-number {
+  position: absolute;
+  top: -14px;
+  background: #0f2d5c;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 800;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(15, 45, 92, 0.3);
+}
+
+.admission-req-icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #f0f7ff;
+  color: #0284c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.admission-req-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.admission-req-card-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #475569;
+  margin: 0;
+}
+
+/* Examination Stages */
+.admission-stages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.admission-stage-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border-top: 4px solid #0070c0;
+  border-left: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 28px 32px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+.admission-stage-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.admission-stage-tag {
+  background: #0070c0;
+  color: #ffffff;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.admission-stage-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+}
+
+.admission-stage-body {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 20px 24px;
+  border: 1px solid #edf2f7;
+}
+
+.admission-stage-subheader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0070c0;
+  margin-bottom: 16px;
+}
+
+.admission-stage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.admission-detail-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.admission-detail-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.text-success { color: #16a34a !important; }
+.text-primary { color: #0284c7 !important; }
+.text-teal { color: #0d9488 !important; }
+.text-amber { color: #d97706 !important; }
+
+.admission-detail-desc {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.admission-stage-footer-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Results & Opportunities */
+.admission-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.admission-result-card {
+  border-radius: 20px;
+  padding: 30px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s ease;
+}
+
+.admission-result-card:hover {
+  transform: translateY(-4px);
+}
+
+.admission-result-card--blue {
+  background: #e8f4fc;
+  border: 1px solid #bfdbfe;
+}
+
+.admission-result-card--teal {
+  background: #e6f6f5;
+  border: 1px solid #99f6e4;
+}
+
+.admission-result-card--amber {
+  background: #fbf3e6;
+  border: 1px solid #fde68a;
+}
+
+.admission-result-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.admission-result-card--blue .admission-result-icon { color: #0284c7; }
+.admission-result-card--teal .admission-result-icon { color: #0d9488; }
+.admission-result-card--amber .admission-result-icon { color: #d97706; }
+
+.admission-result-card-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.admission-result-card-text {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+  width: 100%;
+}
+
+.admission-result-card-text p {
+  margin-bottom: 6px;
+}
+
+.admission-note-text {
+  font-size: 11.5px;
+  color: #64748b;
+  display: block;
+  margin-top: 8px;
+}
+
+/* Call to Action */
+.admission-cta-box {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.admission-apply-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #0d2460 0%, #1b3a8c 60%, #13748f 100%);
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 36px;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(13, 36, 96, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admission-apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(13, 36, 96, 0.35);
+  color: #ffffff !important;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+  .admission-requirements-grid,
+  .admission-results-grid,
+  .admission-stage-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .admission-stage-footer-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .admission-header-card {
+    padding: 24px 20px;
+  }
+  
+  .admission-stage-card {
+    padding: 20px;
+  }
+}
+

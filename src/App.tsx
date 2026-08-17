@@ -14,11 +14,11 @@ import LeadershipPage from './pages/LeadershipPage';
 import StaffPage from './pages/StaffPage';
 import TeachersPage from './pages/TeachersPage';
 import PupilsPage from './pages/PupilsPage';
-import ApplicationPage from './pages/ApplicationPage';
 import AcademicCalendarPage from './pages/AcademicCalendarPage';
 import IeltsResultsPage from './pages/IeltsResultsPage';
 import SatResultsPage from './pages/SatResultsPage';
 import StatisticsPage from './pages/StatisticsPage';
+import AdmissionRulesPage from './pages/AdmissionRulesPage';
 
 const AppInner: React.FC = () => {
   const { i18n, t } = useTranslation();
@@ -60,7 +60,9 @@ const AppInner: React.FC = () => {
       <Route path="/staff" element={<StaffPage />} />
       <Route path="/teachers" element={<TeachersPage />} />
       <Route path="/pupils" element={<PupilsPage />} />
-      <Route path="/application" element={<ApplicationPage />} />
+      <Route path="/application" element={<AdmissionRulesPage />} />
+      <Route path="/qabul-nizomi" element={<AdmissionRulesPage />} />
+      <Route path="/qabul" element={<AdmissionRulesPage />} />
       <Route path="/academic-calendar" element={<AcademicCalendarPage />} />
       
       <Route path="/results/ielts" element={<IeltsResultsPage />} />

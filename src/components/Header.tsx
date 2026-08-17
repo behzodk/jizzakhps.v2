@@ -11,6 +11,7 @@ const Header: React.FC = () => {
   const [langOpen, setLangOpen] = useState(false);
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [admissionOpen, setAdmissionOpen] = useState(false);
   const [resultsOpen, setResultsOpen] = useState(false);
 
   const currentLang = i18n.language.startsWith('en') ? 'en' : 'uz';
@@ -82,7 +83,13 @@ const Header: React.FC = () => {
                 </div>
               </div>
               <div className="header-text-item"><Link to="/education" className="header-text-link">{t('nav.education')}</Link></div>
-              <div className="header-text-item"><a href="https://ariza.piima.uz/application/cabinet" target="_blank" rel="noreferrer" className="header-text-link">{t('nav.admission')}</a></div>
+              <div className="header-text-item has-dropdown">
+                <span className="header-text-link">{t('nav.admission')} <i className="i-dropdawun"></i></span>
+                <div className="header-text-dropdown">
+                  <div className="header-text-dropdown-item"><Link to="/qabul-nizomi" className="header-text-dropdown-link">{t('nav.admission_rules')}</Link></div>
+                  <div className="header-text-dropdown-item"><a href="https://ariza.piima.uz/application/cabinet" target="_blank" rel="noreferrer" className="header-text-dropdown-link">{t('nav.apply_online')}</a></div>
+                </div>
+              </div>
               <div className="header-text-item"><Link to="/teachers" className="header-text-link">{t('nav.teachers')}</Link></div>
               <div className="header-text-item"><Link to="/pupils" className="header-text-link">{t('nav.students')}</Link></div>
             </div>
@@ -127,7 +134,13 @@ const Header: React.FC = () => {
               </ul>}
             </li>
             <li className="menu-item"><Link to="/education" className="menu-link" onClick={close}>{t('nav.education')}</Link></li>
-            <li className="menu-item"><a href="https://ariza.piima.uz/application/cabinet" target="_blank" rel="noreferrer" className="menu-link">{t('nav.admission')}</a></li>
+            <li className="menu-item menu-item--dropdown">
+              <span className="menu-link" onClick={() => setAdmissionOpen(!admissionOpen)} style={{ cursor: 'pointer' }}>{t('nav.admission')} <i className="i-dropdown"></i></span>
+              {admissionOpen && <ul className="submenu">
+                <li className="submenu-item"><Link to="/qabul-nizomi" className="submenu-link" onClick={close}>{t('nav.admission_rules')}</Link></li>
+                <li className="submenu-item"><a href="https://ariza.piima.uz/application/cabinet" target="_blank" rel="noreferrer" className="submenu-link">{t('nav.apply_online')}</a></li>
+              </ul>}
+            </li>
             <li className="menu-item"><Link to="/teachers" className="menu-link" onClick={close}>{t('nav.teachers')}</Link></li>
             <li className="menu-item"><Link to="/pupils" className="menu-link" onClick={close}>{t('nav.students')}</Link></li>
             <li className="menu-item"><Link to="/news" className="menu-link" onClick={close}>{t('nav.news')}</Link></li>
